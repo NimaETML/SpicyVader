@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,8 +15,6 @@ namespace SpicyVader_Nima_Zarrabi
 
         public static int langSelectLength = 0;
         public static bool Enter = false;
-        public static int PosY = 0;                                                                // Positionement horizontal du curseur
-        public static int PosX = 0;                                                                // Positionement vertical du curseur
         public static int LongestLanguage = 0;
         public static int LongestLanguageMinusCurrent = 0;
         public static int CurrentLanguageLength = 0;
@@ -46,20 +44,20 @@ namespace SpicyVader_Nima_Zarrabi
 
 
             // LANGUAGE MENU
-            PosY = 0;
-            PosX = 0;
+            Program.PosY = 0;
+            Program.PosX = 0;
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             for (int i = 0; i < NUMBERLANGUAGE; i++)
             {
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
                 Console.WriteLine(Languages[i]);
-                PosY++;
+                Program.PosY++;
             }
             SetNewLang();
-            PosY = 0;
-            PosX = 0;
+            Program.PosY = 0;
+            Program.PosX = 0;
             WriteNewLang();
 
             do
@@ -71,9 +69,9 @@ namespace SpicyVader_Nima_Zarrabi
                 if (ConsoleKey.Enter == Key1)
                 {
                     Enter = true;
-                    if (Languages[PosY] != Program.BACK)
+                    if (Languages[Program.PosY] != Program.BACK)
                     {
-                        selectedLanguage = Languages[PosY];
+                        selectedLanguage = Languages[Program.PosY];
                     }
                 }
 
@@ -81,18 +79,18 @@ namespace SpicyVader_Nima_Zarrabi
                 if (ConsoleKey.UpArrow == Key1)
                 {
                     GetLongestLangMinusCurrent();
-                    if (PosY <= 0)
+                    if (Program.PosY <= 0)
                     {
                         RemoveCurrentLang();
                         //Change selected language
-                        PosY = (PosY + NUMBERLANGUAGE - 1);
+                        Program.PosY = (Program.PosY + NUMBERLANGUAGE - 1);
                         WriteNewLang();
                     }
                     else
                     {
                         RemoveCurrentLang();
                         //Change selected language
-                        PosY--;
+                        Program.PosY--;
                         WriteNewLang();
                     }
                 }
@@ -100,18 +98,18 @@ namespace SpicyVader_Nima_Zarrabi
                 if (ConsoleKey.DownArrow == Key1)
                 {
                     GetLongestLangMinusCurrent();
-                    if (PosY >= NUMBERLANGUAGE - 1)
+                    if (Program.PosY >= NUMBERLANGUAGE - 1)
                     {
                         RemoveCurrentLang();
                         //Change selected language
-                        PosY = PosY - NUMBERLANGUAGE + 1;
+                        Program.PosY = Program.PosY - NUMBERLANGUAGE + 1;
                         WriteNewLang();
                     }
                     else
                     {
                         RemoveCurrentLang();
                         //Change selected language
-                        PosY++;
+                        Program.PosY++;
                         WriteNewLang();
                     }
                 }
@@ -123,78 +121,78 @@ namespace SpicyVader_Nima_Zarrabi
         }
         public void RemoveLangMenu()
         {
-            PosX = 0;
-            PosY = 0;
+            Program.PosX = 0;
+            Program.PosY = 0;
             // Change colors to black and white
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
             //Erase language
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             //Remove red background
             for (int j = 0; j < NUMBERLANGUAGE; j++)
             {
                 for (int z = 0; z <= LongestLanguage; z++)
                 {
                     //Remove langages
-                    Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+                    Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
                     Console.Write(" ");
-                    PosX++;
+                    Program.PosX++;
                 }
                 //Remove arrows
                 foreach (char e in ARROW)
                 {
                     Console.Write(" ");
-                    PosX++;
-                    Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+                    Program.PosX++;
+                    Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
                 }
-                PosY++;
-                PosX = 0;
+                Program.PosY++;
+                Program.PosX = 0;
             }
-            PosY = 0;
-            PosX = 0;
+            Program.PosY = 0;
+            Program.PosX = 0;
         }
         public void RemoveCurrentLang()
         {
-            PosX = 0;
+            Program.PosX = 0;
             // Change colors to black and white
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
             //Write Language in black and white
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
-            Console.Write(Languages[PosY]);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
+            Console.Write(Languages[Program.PosY]);
             //Move to space between text and arrow
-            for (int i = 0; i < Languages[PosY].Length; i++)
+            for (int i = 0; i < Languages[Program.PosY].Length; i++)
             {
                 CurrentLanguageLength++;
             }
             //Remove red background
             for (int i = 0; i <= LongestLanguageMinusCurrent; i++)
             {
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX + CurrentLanguageLength, Program.DISTANCEMENUUP + PosY);
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX + CurrentLanguageLength, Program.DISTANCEMENUUP + Program.PosY);
                 Console.Write(" ");
-                PosX++;
+                Program.PosX++;
             }
             //Remove arrow
             for (int i = 0; i < ARROW.Length; i++)
             {
                 Console.Write(" ");
-                PosX++;
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + CurrentLanguageLength + PosX, Program.DISTANCEMENUUP + PosY);
+                Program.PosX++;
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + CurrentLanguageLength + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             }
-            PosX = 0;
+            Program.PosX = 0;
             CurrentLanguageLength = 0;
         }
 
         public void WriteNewLang()
         {
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             //Write selected language
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ColorMenu.consoleColor;
-            Console.Write(Languages[PosY]);
+            Console.Write(Languages[Program.PosY]);
             //Add Red between language and arrow
             LongestLanguageMinusCurrent = LongestLanguage;
-            for (int i = 0; i < Languages[PosY].Length; i++)
+            for (int i = 0; i < Languages[Program.  PosY].Length; i++)
             {
                 LongestLanguageMinusCurrent--;
             }
@@ -208,7 +206,7 @@ namespace SpicyVader_Nima_Zarrabi
         public void GetLongestLangMinusCurrent()
         {
             LongestLanguageMinusCurrent = LongestLanguage;
-            for (int i = 0; i < Languages[PosY].Length; i++)
+            for (int i = 0; i < Languages[Program.PosY].Length; i++)
             {
                 LongestLanguageMinusCurrent--;
             }
@@ -230,31 +228,31 @@ namespace SpicyVader_Nima_Zarrabi
         }
         public void LeaveLangMenu()
         {
-            if (Languages[PosY] == "Français")
+            if (Languages[Program.PosY] == "Français")
             {
                 RemoveCurrentLang();
                 SetNewLang();
                 WriteLangMenu();
             }
-            else if (Languages[PosY] == "English")
+            else if (Languages[Program.PosY] == "English")
             {
                 RemoveCurrentLang();
                 SetNewLang();
                 WriteLangMenu();
             }
-            else if (Languages[PosY] == "Deutche")
+            else if (Languages[Program.PosY] == "Deutche")
             {
                 RemoveCurrentLang();
                 SetNewLang();
                 WriteLangMenu();
             }
-            else if (Languages[PosY] == "Italianish")
+            else if (Languages[Program.PosY] == "Italianish")
             {
                 RemoveCurrentLang();
                 SetNewLang();
                 WriteLangMenu();
             }
-            else if (Languages[PosY] == Program.BACK)
+            else if (Languages[Program.PosY] == Program.BACK)
             {
                 RemoveLangMenu();
                 RemoveNewLang1();
@@ -268,23 +266,23 @@ namespace SpicyVader_Nima_Zarrabi
             RemoveNewLang1();
             Console.Write(LANGSELECT);
             RemoveNewLang2();
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + langSelectLength + PosX, Program.DISTANCEMENUUP + PosY + NUMBERLANGUAGE);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + langSelectLength + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERLANGUAGE);
             Console.Write(selectedLanguage);
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY + NUMBERLANGUAGE);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERLANGUAGE);
         }
 
         public void RemoveNewLang1()
         {
-            PosX = 0;
-            PosY = 0;
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY + NUMBERLANGUAGE);
-            PosY++;
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY + NUMBERLANGUAGE);
+            Program.PosX = 0;
+            Program.PosY = 0;
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERLANGUAGE);
+            Program.PosY++;
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERLANGUAGE);
             foreach (char d in LANGSELECT)
             {
                 Console.Write(" ");
             }
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY + NUMBERLANGUAGE);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERLANGUAGE);
         }
         public void RemoveNewLang2()
         {
@@ -292,10 +290,10 @@ namespace SpicyVader_Nima_Zarrabi
             for (int x = 0; x <= LongestLanguage; x++)
             {
                 Console.Write(" ");
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + langSelectLength + PosX, Program.DISTANCEMENUUP + PosY + NUMBERLANGUAGE);
-                PosX++;
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + langSelectLength + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERLANGUAGE);
+                Program.PosX++;
             }
-            PosX = 0;
+            Program.PosX = 0;
         }
 
     }
