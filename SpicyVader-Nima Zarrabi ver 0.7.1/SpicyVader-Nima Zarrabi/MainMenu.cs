@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +12,6 @@ namespace SpicyVader_Nima_Zarrabi
         ////////////////////////////////////////////////// Déclaration des variables //////////////////////////////////////////////////
 
         public static bool Enter = false;
-        public static int PosY = 0;                                                                // Positionement horizontal du curseur
-        public static int PosX = 0;                                                                // Positionement vertical du curseur
         public static int LongestMainButton = 0;
         public static int LongestMainButtonMinusCurrent = 0;
         public static int CurrentMainButtonLength = 0;
@@ -40,13 +38,13 @@ namespace SpicyVader_Nima_Zarrabi
             LongestMainButtonMinusCurrent = LongestMainButton;
             for (int i = 0; i < NUMBERMAINMENU; i++)
             {
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
                 Console.WriteLine(MainMenuButton[i]);
-                PosY++;
+                Program.PosY++;
             }
-            PosY = 0;
-            PosX = 0;
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+            Program.PosY = 0;
+            Program.PosX = 0;
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             WriteNewMainButton();
             do
             {
@@ -57,24 +55,24 @@ namespace SpicyVader_Nima_Zarrabi
                 if (ConsoleKey.Enter == Key1)
                 {
                     Enter = true;
-                    selectedMainOption = MainMenuButton[PosY];
+                    selectedMainOption = MainMenuButton[Program.PosY];
                 }
                 //When up arrow
                 if (ConsoleKey.UpArrow == Key1)
                 {
                     GetLongestMainButtonMinusCurrent();
-                    if (PosY <= 0)
+                    if (Program.PosY <= 0)
                     {
                         RemoveCurrentMain();
                         //Change selected language
-                        PosY = (PosY + NUMBERMAINMENU - 1);
+                        Program.PosY = (Program.PosY + NUMBERMAINMENU - 1);
                         WriteNewMainButton();
                     }
                     else
                     {
                         RemoveCurrentMain();
                         //Change selected language
-                        PosY--;
+                        Program.PosY--;
                         WriteNewMainButton();
                     }
                 }
@@ -82,18 +80,18 @@ namespace SpicyVader_Nima_Zarrabi
                 if (ConsoleKey.DownArrow == Key1)
                 {
                     GetLongestMainButtonMinusCurrent();
-                    if (PosY >= NUMBERMAINMENU - 1)
+                    if (Program.PosY >= NUMBERMAINMENU - 1)
                     {
                         RemoveCurrentMain();
                         //Change selected language
-                        PosY = PosY - NUMBERMAINMENU + 1;
+                        Program.PosY = Program.PosY - NUMBERMAINMENU + 1;
                         WriteNewMainButton();
                     }
                     else
                     {
                         RemoveCurrentMain();
                         //Change selected language
-                        PosY++;
+                        Program.    PosY++;
                         WriteNewMainButton();
                     }
                 }
@@ -104,79 +102,79 @@ namespace SpicyVader_Nima_Zarrabi
         }
         public void RemoveMainMenu()
         {
-            PosX = 0;
-            PosY = 0;
+            Program.PosX = 0;
+            Program.PosY = 0;
             // Change colors to black and white
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
             //Erase language
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             //Remove red background
             for (int j = 0; j < NUMBERMAINMENU; j++)
             {
                 for (int z = 0; z <= LongestMainButton; z++)
                 {
                     //Remove langages
-                    Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+                    Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP +  Program.PosY);
                     Console.Write(" ");
-                    PosX++;
+                    Program.PosX++;
                     //Remove arrows
                 }
                 foreach (char e in ARROW)
                 {
                     Console.Write(" ");
-                    PosX++;
-                    Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+                    Program.PosX++;
+                    Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
                 }
-                PosY++;
-                PosX = 0;
+                Program.PosY++;
+                Program.PosX = 0;
             }
-            PosY = 0;
-            PosX = 0;
+            Program.PosY = 0;
+            Program.PosX = 0;
         }
 
         public void RemoveCurrentMain()
         {
             CurrentMainButtonLength = 0;
-            PosX = 0;
+            Program.PosX = 0;
             // Change colors to black and white
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
             //Write Language in black and white
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
-            Console.Write(MainMenuButton[PosY]);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
+            Console.Write(MainMenuButton[Program.PosY]);
             //Move to space between text and arrow
-            for (int i = 0; i < MainMenuButton[PosY].Length; i++)
+            for (int i = 0; i < MainMenuButton[Program.PosY].Length; i++)
             {
                 CurrentMainButtonLength++;
             }
             //Remove red background
             for (int i = 0; i <= LongestMainButtonMinusCurrent; i++)
             {
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX + CurrentMainButtonLength, Program.DISTANCEMENUUP + PosY);
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX + CurrentMainButtonLength, Program.DISTANCEMENUUP +Program.PosY);
                 Console.Write(" ");
-                PosX++;
+                Program.PosX++;
             }
             //Remove arrow
             for (int i = 0; i < ARROW.Length; i++)
             {
                 Console.Write(" ");
-                PosX++;
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + CurrentMainButtonLength + PosX, Program.DISTANCEMENUUP + PosY);
+                Program.PosX++;
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + CurrentMainButtonLength + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             }
-            PosX = 0;
+            Program.PosX = 0;
             CurrentMainButtonLength = 0;
         }
         public void WriteNewMainButton()
         {
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             //Write selected language
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ColorMenu.consoleColor;
-            Console.Write(MainMenuButton[PosY]);
+            Console.Write(MainMenuButton[Program.PosY]);
             //Add Red between language and arrow
             LongestMainButtonMinusCurrent = LongestMainButton;
-            for (int i = 0; i < MainMenuButton[PosY].Length; i++)
+            for (int i = 0; i < MainMenuButton[Program.PosY].Length; i++)
             {
                 LongestMainButtonMinusCurrent--;
             }
@@ -191,7 +189,7 @@ namespace SpicyVader_Nima_Zarrabi
         public void GetLongestMainButtonMinusCurrent()
         {
             LongestMainButtonMinusCurrent = LongestMainButton;
-            for (int i = 0; i < MainMenuButton[PosY].Length; i++)
+            for (int i = 0; i < MainMenuButton[Program.PosY].Length; i++)
             {
                 LongestMainButtonMinusCurrent--;
             }
@@ -207,38 +205,38 @@ namespace SpicyVader_Nima_Zarrabi
         public void LeaveMainMenu()
         {
 
-            if (MainMenuButton[PosY] == "Play")
+            if (MainMenuButton[Program.PosY] == "Play")
             {
-                PosY = 0;
-                PosX = 0;
+                Program.PosY = 0;
+                Program.PosX = 0;
+                RemoveMainMenu();
+                new GameEngine().Timer();
+            }
+            else if (MainMenuButton[Program.PosY] == "Skins")
+            {
+                Program.PosY = 0;
+                Program.PosX = 0;
                 RemoveMainMenu();
                 new LangMenu().WriteLangMenu();
             }
-            else if (MainMenuButton[PosY] == "Skins")
+            else if (MainMenuButton[Program.PosY] == "Languages")
             {
-                PosY = 0;
-                PosX = 0;
+                Program.PosY = 0;
+                Program.PosX = 0;
                 RemoveMainMenu();
                 new LangMenu().WriteLangMenu();
             }
-            else if (MainMenuButton[PosY] == "Languages")
+            else if (MainMenuButton[Program.PosY] == "Themes")
             {
-                PosY = 0;
-                PosX = 0;
-                RemoveMainMenu();
-                new LangMenu().WriteLangMenu();
-            }
-            else if (MainMenuButton[PosY] == "Themes")
-            {
-                PosY = 0;
-                PosX = 0;
+                Program.PosY = 0;
+                Program.PosX = 0;
                 RemoveMainMenu();
                 new ColorMenu().WriteColorMenu();
             }
-            else if (MainMenuButton[PosY] == Program.BACK)
+            else if (MainMenuButton[Program.PosY] == Program.BACK)
             {
-                PosY = 0;
-                PosX = 0;
+                Program.PosY = 0;
+                Program.PosX = 0;
                 RemoveMainMenu();
                 new LangMenu().WriteLangMenu();
             }
