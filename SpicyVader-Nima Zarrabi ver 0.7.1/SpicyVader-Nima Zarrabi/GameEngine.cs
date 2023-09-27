@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,41 +9,45 @@ namespace SpicyVader_Nima_Zarrabi
 {
     internal class GameEngine
     {
+        public int enemyNumber = 0;
+        List<Enemy> enemyList = new List<Enemy>();
+        //public static int[] EnemyX = new int[Enemy.TOTALENEMYSPAWN];
+        //public static int[] EnemyY = new int[Enemy.TOTALENEMYSPAWN];
+
+        //public Enemy enemy1 = new Enemy((Enemy.DISTANCEBETWEEENENEMIES), 0); 
+
         public void Timer()
         {
-            System.Timers.Timer aTimer = new System.Timers.Timer();
-            aTimer.Elapsed += new ElapsedEventHandler(OnTimedEvent);
-            aTimer.Interval = 5000;
-            aTimer.Enabled = true;
-            foreach (char c in LangMenu.LANGSELECT)
+            for (int i = 0; i < Enemy.TOTALENEMYSPAWN; i++)
             {
-                LangMenu.langSelectLength++;
+                enemyList.Add(new Enemy(enemyNumber, 0));
+                enemyNumber = enemyNumber + Enemy.DISTANCEBETWEEENENEMIES;
             }
-            foreach (char c in ColorMenu.COLORSELECT)
+            System.Timers.Timer enemyTimer = new System.Timers.Timer();
+            enemyTimer.Elapsed += new ElapsedEventHandler(enemymove);
+            enemyTimer.Interval = 200;
+            enemyTimer.Enabled = true;
+            System.Timers.Timer shipTimer = new System.Timers.Timer();
+            shipTimer.Elapsed += new ElapsedEventHandler(shipmove);
+            shipTimer.Interval = 100;
+            shipTimer.Enabled = false;
+            Console.ReadKey();
+        }
+        // When enemy timer ticks
+        internal void enemymove(object source, ElapsedEventArgs e)
+        {
+            foreach (Enemy currentenemy in enemyList)
             {
-                ColorMenu.colorSelectLength++;
+                currentenemy.enemymove();
             }
-            LangMenu.selectedLanguage = Program.BACK;
-            new ColorMenu().Color();
-            new LangMenu().AvailableLanguages();
-            LangMenu.selectedLanguage = LangMenu.Languages[0];
-            new LangMenu().AvailableLanguages();
-            new MainMenu().MainButtons();
-            Enum.TryParse(ColorMenu.Colors[Convert.ToInt16(ColorMenu.selectedColor)], out ColorMenu.consoleColor);
-            Console.CursorVisible = false;
-
-            Console.Clear();
-
-            new Program().Title();
-
-            new MainMenu().WriteMainMenu();
-
         }
 
-        // Specify what you want to happen when the Elapsed event is raised.
-        private static void OnTimedEvent(object source, ElapsedEventArgs e)
+        // When ship timer ticks
+        private static void shipmove(object source, ElapsedEventArgs e)
         {
-            //Console.WriteLine("Hello World!");
+            Program.PosY++;
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
+            Console.WriteLine("Hello World!");
         }
     }
 }
