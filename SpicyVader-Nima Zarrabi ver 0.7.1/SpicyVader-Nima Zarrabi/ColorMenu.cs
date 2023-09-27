@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,8 +15,6 @@ namespace SpicyVader_Nima_Zarrabi
 
         public static int colorSelectLength = 0;
         public static bool Enter = false;
-        public static int PosY = 0;                                                                // Positionement horizontal du curseur
-        public static int PosX = 0;                                                                // Positionement vertical du curseur
         public static int LongestColor = 0;
         public static int LongestColorMinusCurrent = 0;
         public static int CurrentColorLength = 0;
@@ -42,16 +40,16 @@ namespace SpicyVader_Nima_Zarrabi
             }
             LongestColorMinusCurrent = LongestColor;
             // COLOR MENU
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             for (int i = 0; i < NUMBERCOLORS; i++)
             {
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
                 Console.WriteLine(Colors[i]);
-                PosY++;
+                Program.PosY++;
             }
             SetNewColor();
-            PosY = 0;
-            PosX = 0;
+            Program.PosY = 0;
+            Program.PosX = 0;
             WriteNewColor();
             do
             {
@@ -69,18 +67,18 @@ namespace SpicyVader_Nima_Zarrabi
                 if (ConsoleKey.UpArrow == Key1)
                 {
                     GetLongestColorMinusCurrent();
-                    if (PosY <= 0)
+                    if (Program.PosY <= 0)
                     {
                         RemoveCurrentColor();
                         //Change selected language
-                        PosY = (PosY + NUMBERCOLORS - 1);
+                        Program.PosY = (Program.PosY + NUMBERCOLORS - 1);
                         WriteNewColor();
                     }
                     else
                     {
                         RemoveCurrentColor();
                         //Change selected language
-                        PosY--;
+                        Program.PosY--;
                         WriteNewColor();
                     }
                 }
@@ -88,18 +86,18 @@ namespace SpicyVader_Nima_Zarrabi
                 if (ConsoleKey.DownArrow == Key1)
                 {
                     GetLongestColorMinusCurrent();
-                    if (PosY >= NUMBERCOLORS - 1)
+                    if (Program.PosY >= NUMBERCOLORS - 1)
                     {
                         RemoveCurrentColor();
                         //Change selected language
-                        PosY = PosY - NUMBERCOLORS + 1;
+                        Program.PosY = Program.PosY - NUMBERCOLORS + 1;
                         WriteNewColor();
                     }
                     else
                     {
                         RemoveCurrentColor();
                         //Change selected language
-                        PosY++;
+                        Program.PosY++;
                         WriteNewColor();
                     }
                 }
@@ -111,78 +109,78 @@ namespace SpicyVader_Nima_Zarrabi
         }
         public void RemoveColorMenu()
         {
-            PosX = 0;
-            PosY = 0;
+            Program.PosX = 0;
+            Program.PosY = 0;
             // Change colors to black and white
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
             //Erase language
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             //Remove red background
             for (int j = 0; j < NUMBERCOLORS; j++)
             {
                 for (int z = 0; z <= LongestColor; z++)
                 {
                     //Remove langages
-                    Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+                    Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
                     Console.Write(" ");
-                    PosX++;
+                    Program.PosX++;
                     //Remove arrows
                     foreach (char e in ARROW)
                     {
                         Console.Write(" ");
-                        PosX++;
-                        Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+                        Program.PosX++;
+                        Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
                     }
                 }
-                PosY++;
-                PosX = 0;
+                Program.PosY++;
+                Program.PosX = 0;
             }
-            PosY = 0;
-            PosX = 0;
+            Program.PosY = 0;
+            Program.PosX = 0;
         }
         public void RemoveCurrentColor()
         {
-            PosX = 0;
+            Program.PosX = 0;
             // Change colors to black and white
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
             //Write Language in black and white
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
-            Console.Write(Colors[PosY]);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
+            Console.Write(Colors[Program.PosY]);
             //Move to space between text and arrow
-            for (int i = 0; i < Colors[PosY].Length;i++)
+            for (int i = 0; i < Colors[Program.PosY].Length;i++)
             {
                 CurrentColorLength++;
             }
             //Remove red background
             for (int i = 0; i <= LongestColorMinusCurrent; i++)
             {
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX + CurrentColorLength, Program.DISTANCEMENUUP + PosY);
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX + CurrentColorLength, Program.DISTANCEMENUUP + Program.PosY);
                 Console.Write(" ");
-                PosX++;
+                Program.PosX++;
             }
             //Remove arrow
             for (int i = 0; i < ARROW.Length; i++)
             {
                 Console.Write(" ");
-                PosX++;
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + CurrentColorLength + PosX, Program.DISTANCEMENUUP + PosY);
+                Program.PosX++;
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + CurrentColorLength + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             }
-            PosX = 0;
+            Program.PosX = 0;
             CurrentColorLength = 0;
         }
 
         public void WriteNewColor()
         {
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY);
             //Write selected language
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = consoleColor;
-            Console.Write(Colors[PosY]);
+            Console.Write(Colors[Program.PosY]);
             //Add Red between language and arrow
             LongestColorMinusCurrent = LongestColor;
-            for (int i = 0; i < Colors[PosY].Length; i++)
+            for (int i = 0; i < Colors[Program.PosY].Length; i++)
             {
                 LongestColorMinusCurrent--;
             }
@@ -196,7 +194,7 @@ namespace SpicyVader_Nima_Zarrabi
         public void GetLongestColorMinusCurrent()
         {
             LongestColorMinusCurrent = LongestColor;
-            for (int i = 0; i < Colors[PosY].Length; i++)
+            for (int i = 0; i < Colors[Program.PosY].Length; i++)
             {
                 LongestColorMinusCurrent--;
             }
@@ -224,71 +222,71 @@ namespace SpicyVader_Nima_Zarrabi
         }
         public void LeaveColorMenu()
         {
-            if (Colors[PosY] == "Black")
+            if (Colors[Program.PosY] == "Black")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "DarkBlue")
+            else if (Colors[Program.PosY] == "DarkBlue")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "DarkGreen")
+            else if (Colors[Program.PosY] == "DarkGreen")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "DarkCyan")
+            else if (Colors[Program.PosY] == "DarkCyan")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "DarkRed")
+            else if (Colors[Program.PosY] == "DarkRed")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "DarkMagenta")
+            else if (Colors[Program.PosY] == "DarkMagenta")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "DarkYellow")
+            else if (Colors[Program.PosY] == "DarkYellow")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "Gray")
+            else if (Colors[Program.PosY] == "Gray")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "DarkGray")
+            else if (Colors[Program.PosY] == "DarkGray")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "Blue")
+            else if (Colors[Program.PosY] == "Blue")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "Green")
+            else if (Colors[Program.PosY] == "Green")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "Cyan")
+            else if (Colors[Program.PosY] == "Cyan")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "Red")
+            else if (Colors[Program.PosY] == "Red")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "Magenta")
+            else if (Colors[Program.PosY] == "Magenta")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "Yellow")
+            else if (Colors[Program.PosY] == "Yellow")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == "White")
+            else if (Colors[Program.PosY] == "White")
             {
                 PickColor();
             }
-            else if (Colors[PosY] == Program.BACK)
+            else if (Colors[Program.PosY] == Program.BACK)
             {
                 RemoveColorMenu();
                 RemoveNewColor1();
@@ -301,23 +299,23 @@ namespace SpicyVader_Nima_Zarrabi
             RemoveNewColor1();
             Console.Write(COLORSELECT);
             RemoveNewColor2();
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + colorSelectLength + PosX, Program.DISTANCEMENUUP + PosY + NUMBERCOLORS);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + colorSelectLength + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERCOLORS);
             Console.Write(Colors[selectedColor]);
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY + NUMBERCOLORS);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERCOLORS);
         }
 
         public void RemoveNewColor1()
         {
-            PosX = 0;
-            PosY = 0;
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY + NUMBERCOLORS);
-            PosY++;
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY + NUMBERCOLORS);
+            Program.PosX = 0;
+            Program.PosY = 0;
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERCOLORS);
+            Program.PosY++;
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERCOLORS);
             foreach (char d in COLORSELECT)
             {
                 Console.Write(" ");
             }
-            Console.SetCursorPosition(Program.DISTANCEMENULEFT + PosX, Program.DISTANCEMENUUP + PosY + NUMBERCOLORS);
+            Console.SetCursorPosition(Program.DISTANCEMENULEFT + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERCOLORS);
         }
         public void RemoveNewColor2()
         {
@@ -325,16 +323,16 @@ namespace SpicyVader_Nima_Zarrabi
             for (int x = 0; x <= LongestColor; x++)
             {
                 Console.Write(" ");
-                Console.SetCursorPosition(Program.DISTANCEMENULEFT + colorSelectLength + PosX, Program.DISTANCEMENUUP + PosY + NUMBERCOLORS);
-                PosX++;
+                Console.SetCursorPosition(Program.DISTANCEMENULEFT + colorSelectLength + Program.PosX, Program.DISTANCEMENUUP + Program.PosY + NUMBERCOLORS);
+                Program.PosX++;
             }
-            PosX = 0;
+            Program.PosX = 0;
         }
 
         public void PickColor()
         {
-            selectedColor = PosY;
-            PosY = 0;
+            selectedColor = Program.PosY;
+            Program.PosY = 0;
             new Program().Title();
             RemoveColorMenu();
             WriteColorMenu();
