@@ -1,0 +1,190 @@
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.3\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.AssemblyReference.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.4 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.5 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.AssemblyReference.cache
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+C:\Users\pu78ifh\Desktop\OneDrive_2023-09-25\SpicyVader-Nima Zarrabi ver 0.6 backup\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.AssemblyReference.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.6\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.AssemblyReference.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.7.1\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.AssemblyReference.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.7.2\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.8\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.AssemblyReference.cache
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+F:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.AssemblyReference.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+D:\DATA\Prog\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.exe
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.deps.json
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.runtimeconfig.json
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\bin\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.AssemblyReference.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfoInputs.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.AssemblyInfo.cs
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.csproj.CoreCompileInputs.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\refint\SpicyVader-Nima Zarrabi.dll
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.pdb
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\SpicyVader-Nima Zarrabi.genruntimeconfig.cache
+C:\Users\pu78ifh\Desktop\SpicyVader-Nima Zarrabi ver 0.9\SpicyVader-Nima Zarrabi\obj\Debug\net6.0\ref\SpicyVader-Nima Zarrabi.dll
