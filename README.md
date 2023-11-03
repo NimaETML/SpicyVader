@@ -1,4 +1,4 @@
-# SpicyVader
-space invader!!!!
+# SpicyVader C#
+space invaders!!!!
 
-very good vader, moves with arrow keys and enter to confirm, space to shoot
+flèches pour le movement, espace pour tirer une fois dans le jeu
